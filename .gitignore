@@ -117,6 +117,7 @@ venv.bak/
 # Rope project settings
 .ropeproject
 
+
 # mkdocs documentation
 /site
 
@@ -134,3 +135,4 @@ Results/
 
 #credential
 credential.txt
+*.json
