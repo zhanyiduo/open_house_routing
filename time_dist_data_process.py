@@ -53,7 +53,7 @@ class get_time_dist_matrix:
             file.close()
         self.gmaps = googlemaps.Client(key=api_key)
         if not home_addree:
-            self.home_address = '2007 Meadowbrook Way Dr, Chesterfield, MO 63017'
+            self.home_address = '700 Chesterfield Pkwy, Chesterfield, MO 63017'
         else:
             self.home_address = home_addree
     def dist_matrix_json(self,origins,destinations,**kwargs):
